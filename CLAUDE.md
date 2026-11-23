@@ -18,7 +18,7 @@ and files the note. The plugin fetches nothing, holds no key, and talks only to 
 
 ## State
 
-Plugin 0.1.0 on branch `plugin-0.1.0`: `src/client.ts` (the app conversation, tested under plain Node), `src/main.ts` (commands, ribbon, modal, settings tab), `src/i18n/`. Tests: `npm test`. Needs Clipverb 0.5.3 or later,
+Plugin 0.1.0 on main (PR 1): `src/client.ts` (the app conversation, tested under plain Node), `src/main.ts` (commands, ribbon, modal, settings tab), `src/i18n/`. Tests: `npm test`. Needs Clipverb 0.5.3 or later,
 which adds `POST /link`.
 
 ## Read ladder
