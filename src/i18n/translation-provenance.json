@@ -1,0 +1,2255 @@
+{
+  "tool": "System/tools/translate_chain.py",
+  "schema": 1,
+  "made": "2026-11-23T15:40:49",
+  "prd": "System/PRD-translation-chain-2026-10-28.md",
+  "source": {
+    "file": "en.json",
+    "sha256": "065585b9f05fd3dd3f19085a372ebfa17964f34512fabcb1bf3b78e7a42c52b4"
+  },
+  "names": [
+    "Clipverb",
+    "Obsidian"
+  ],
+  "passes": {
+    "translate": "sonnet",
+    "review": "opus",
+    "back": "haiku",
+    "compare": "opus"
+  },
+  "files": {
+    "ar.json": {
+      "lang": "ar",
+      "sha256": "eded44d8ce1dfd38f4e3586bdb4edc707d5a14bed436227e428070b401a31799",
+      "shipped": 28,
+      "held": 0
+    },
+    "es.json": {
+      "lang": "es",
+      "sha256": "46d128bfe0bb61a1fb8ae407fb626a3a28d960663c20c89fb0aebd89cd3b98f8",
+      "shipped": 28,
+      "held": 0
+    },
+    "fr.json": {
+      "lang": "fr",
+      "sha256": "09893686aa02ee526238a209ede6ed904126d3e567c4e2d9c69233b551ab0c2e",
+      "shipped": 28,
+      "held": 0
+    }
+  },
+  "strings": {
+    "ar": {
+      "command.editor": {
+        "src_key": "command.editor",
+        "en_hash": "e2f6114c1933594a5f5fd51aa0fb56e71f808fbf7d870c4edea350054df2e2ff",
+        "target": "أرسل الرابط الموجود تحت المؤشر أو المحدد",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send the link shown under the pointer or the selection",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:50",
+          "target_hash": "f22731888d5ca45861226fff044c58d2a29f4410141fb91c85cdc256cb528450"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "command.prompt": {
+        "src_key": "command.prompt",
+        "en_hash": "69ae9601d4427abea459d6b45a57d1d02a70d6e2571943336ae97824655118f2",
+        "target": "أرسل رابط فيديو",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:50",
+          "target_hash": "7a79778d9e0ac2c6fb1df0d895bf945e26afff1648577865b47536b87cdb7614"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.placeholder": {
+        "src_key": "modal.placeholder",
+        "en_hash": "8482f5d4f392cab32155293c4fae5b01f8f72e21ee2cfeb33aac05fb7d9f91dc",
+        "target": "https://www.youtube.com/watch?v=...",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "https://www.youtube.com/watch?v=...",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:52",
+          "target_hash": "8482f5d4f392cab32155293c4fae5b01f8f72e21ee2cfeb33aac05fb7d9f91dc"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.send": {
+        "src_key": "modal.send",
+        "en_hash": "f6f4688ff23d50c67053963c251fa0ce64a925cf283537cf066b1f362cb9b778",
+        "target": "إرسال",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:52",
+          "target_hash": "8b1e3b105d1e3da6f7355295bc85984a49f27e52f3012923b010fa2d197f7c50"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.title": {
+        "src_key": "modal.title",
+        "en_hash": "618f7e4eaaaab26be8b99d249b404353aadf04b06897b1158ad8c9b0ebb132dc",
+        "target": "أرسل رابط فيديو إلى Clipverb",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link to Clipverb",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:51",
+          "target_hash": "228fd9dfd45edbb327d2d7bd6c5f482204812bcc0f3b1c3320897a2c69e59ec9"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.bad_code": {
+        "src_key": "outcome.bad_code",
+        "en_hash": "a0cb7c15759bb9cfdfc1958da12e6292bff9a6e60b736a396dca61cb66b415f0",
+        "target": "لم يقبل Clipverb رمز الإقران. انسخه مرة أخرى من تبويب جالب المتصفح في التطبيق.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb did not accept the pairing code. Copy it again from the Browser fetcher tab in the app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:55",
+          "target_hash": "1d45c18f597195e5a114380ba53946d76649aef422b8ee96134de5024e8b994a"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.bad_link": {
+        "src_key": "outcome.bad_link",
+        "en_hash": "d36d6ccfaf08ec3a434dde1761e0d1f32f0513b8d1dbb8ba3b630245d81bf68c",
+        "target": "هذا ليس رابط فيديو يستطيع Clipverb قراءته.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "This is not a video link that Clipverb can read.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:56",
+          "target_hash": "bc0815fae26efd86568633bd73a74ccd48f70e466b148df9feeb216a400861b4"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.consent": {
+        "src_key": "outcome.consent",
+        "en_hash": "9fe7a2d4820d06ad2f518aa72e8a455356f441958c5f4ad2e6057d480bcbe8f1",
+        "target": "افتح Clipverb واسمح له بإرسال التسميات إلى مزوّد الذكاء الاصطناعي لديك، ثم أرسل الرابط مرة أخرى.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Open Clipverb and allow it to send labels to your AI provider, then send the link again.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:57",
+          "target_hash": "cabeb55c8662b98dc913f36586e1c77cb1cee750b1fb93f133f3a5227e33dfca"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.failed": {
+        "src_key": "outcome.failed",
+        "en_hash": "3bd9977df351c98e22206e1fbe2b911b45ccaad7b8bfae87ff761edae579e944",
+        "target": "تعذّر على Clipverb استلام الرابط. الصقه في التطبيق بدلًا من ذلك.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb could not receive the link. Paste it into the app instead.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:58",
+          "target_hash": "f8d17afb912c3247cb67260b5d601f70fa78754d7f31a71ee6cc3b72a3ef6c98"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_code": {
+        "src_key": "outcome.no_code",
+        "en_hash": "7438a471a070ec1ff2a738aadf7dc116957b337260bf5ceeae3758b0de2630df",
+        "target": "الصق أولًا رمز الإقران من تطبيق Clipverb في إعدادات هذه الإضافة.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "First paste the pairing code from the Clipverb app into this extension's settings.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:53",
+          "target_hash": "9727ead90e6980d1e204120d8c1aaaf6b99c854c8d065e84577e83dd053f5275"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_link": {
+        "src_key": "outcome.no_link",
+        "en_hash": "ae5b11f45dac596d65c3b0433ca4b919f806615d14c45ab6c694f919e7d84020",
+        "target": "لا يوجد رابط تحت المؤشر أو في التحديد.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "There is no link under the pointer or in the selection.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:54",
+          "target_hash": "030cad8b04082402cd6dc032fe4bc9a01b6dc6f2fad862d0c79336257fe1939f"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_model": {
+        "src_key": "outcome.no_model",
+        "en_hash": "099cbffbfa34b59f8f990228d2b1b7ca704f78c1632fa245ed2fc6aa26f61693",
+        "target": "اختر نموذجًا في تبويب التسميات + التلخيص في Clipverb، أو اضبط هذه الإضافة على التسميات فقط.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Choose a model in the Labels + Summary tab in Clipverb, or set this extension to labels only.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:36:57",
+          "target_hash": "56b55d772f2d48282298ac7f8f65ee92fc00affd375802468bbf654e1f074bf0"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.not_bought": {
+        "src_key": "outcome.not_bought",
+        "en_hash": "f632d7a378b5c9b24ffc85974efadb34a8fea637c10ccb59070c4ea982808b9a",
+        "target": "اشترِ Clipverb لتواصل حفظ الملاحظات من روابط الفيديو. يوضّح التطبيق الطريقة.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Buy Clipverb to continue saving notes from video links. The app explains how.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:56",
+          "target_hash": "105255748ff66b39e111554dd77029ec0f4b8a12843388d2fbbbf06bdc534212"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.not_running": {
+        "src_key": "outcome.not_running",
+        "en_hash": "8efb3aa6c684a9f36883af5b5e8da15018ded81ae88d8de92948d15f1a6286ef",
+        "target": "لم يستجب Clipverb. افتح تطبيق Clipverb، أو احصل عليه من clipverb.app.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb did not respond. Open the Clipverb app, or get it from clipverb.app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:54",
+          "target_hash": "3296d47300aebbe47974ca175fd405846696006c226d0ed8205d5ff387417955"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.paired": {
+        "src_key": "outcome.paired",
+        "en_hash": "73dc1e08c0619797da18568aa36c618340be91005a195ad946536823be39f681",
+        "target": "تم الاتصال بـ Clipverb.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Connected to Clipverb.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:53",
+          "target_hash": "f449a6c6d2bd47ee2c5f5f4b839fbc27050561fd028440062b8f6d220e14598a"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.sent": {
+        "src_key": "outcome.sent",
+        "en_hash": "54673588f49d6d02d6233f196fbb0a0617109a5440b367538a78a48047fb6b6f",
+        "target": "أُرسل إلى Clipverb. سيحفظ الملاحظة في مجلد المستودع الذي اخترته في التطبيق.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Sent to Clipverb. It will save the note in the repository folder you chose in the app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:52",
+          "target_hash": "9aefb39f1f6a4a02a8a6def82e4bbfc1c54b2e4c3e36a926d3a2ca24a4768e61"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.starting": {
+        "src_key": "outcome.starting",
+        "en_hash": "5672ba6cf60aa41d2106500f39406a497ee136f23481e9c2215d26e3c5a22dbb",
+        "target": "لا يزال Clipverb قيد بدء التشغيل. حاول مرة أخرى بعد قليل.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "fix",
+          "note": "قيد التشغيل reads as 'is running', not 'is still starting up'; the meaning changed.",
+          "was": "لا يزال Clipverb قيد التشغيل. حاول مرة أخرى بعد قليل."
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb is still starting up. Try again shortly.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:58",
+          "target_hash": "9cc4db7b6c799241e1b10d13324fe7daab51f4e78ddc91e7676f6c8a0ca53b47"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "ribbon": {
+        "src_key": "ribbon",
+        "en_hash": "618f7e4eaaaab26be8b99d249b404353aadf04b06897b1158ad8c9b0ebb132dc",
+        "target": "أرسل رابط فيديو إلى Clipverb",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link to Clipverb",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:51",
+          "target_hash": "228fd9dfd45edbb327d2d7bd6c5f482204812bcc0f3b1c3320897a2c69e59ec9"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.about": {
+        "src_key": "settings.about",
+        "en_hash": "54c32207b6c8743f33480c6206f424e791de4e2f95529c05d0fe1ec1c21f6f99",
+        "target": "Clipverb تطبيق مكتبي مدفوع مع تجربة مدتها 30 يومًا. هذه الإضافة مجانية ولا تتصل إلا بالتطبيق الموجود على هذا الكمبيوتر.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb is a paid desktop app with a 30-day trial. This extension is free and connects only to the app on this computer.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:59",
+          "target_hash": "36b9dbd3efb3ed47609956bd6cc9aaad5d6f74ff9215efe1720402c685feba45"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.button": {
+        "src_key": "settings.check.button",
+        "en_hash": "9d60841e0a7891df0fd55b24d5c883a5d92ae544808675c2ec84537c12589c49",
+        "target": "فحص",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Check",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:03",
+          "target_hash": "eee0654092ac68c27a92791a7ad8834243ff3ab4a1c9ab94251a73e1e45baec8"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.desc": {
+        "src_key": "settings.check.desc",
+        "en_hash": "365076d03ff52d6e8e5f01730c6cabe73e586a8fab8d46ed55878039d476d2ff",
+        "target": "اسأل تطبيق Clipverb هل يقبل رمز الإقران هذا.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Ask the Clipverb app whether it accepts this pairing code.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:03",
+          "target_hash": "972d8aa7d6a7b014de5e3b50ff5e1903590d3b25b032e6bacfe8ab415a730873"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.name": {
+        "src_key": "settings.check.name",
+        "en_hash": "c5612baad29591b590a65806bb4982f4f73fe53b0dca8e234c9ffa2d74f8153f",
+        "target": "حالة الاتصال",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Connection status",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:40:47",
+          "target_hash": "d528cf798e07de97b890329c95d5b62eea64fba01040a30c6a0833946a844ef5"
+        },
+        "status": "shipped",
+        "made": "2026-11-23T15:40:49"
+      },
+      "settings.code.desc": {
+        "src_key": "settings.code.desc",
+        "en_hash": "db28e09f9e643020a4197a40d8059555a5e728faba679455579275f0a599dd1f",
+        "target": "في تطبيق Clipverb، افتح تبويب جالب المتصفح واضغط نسخ رمز الإقران، ثم الصقه هنا.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "In the Clipverb app, open the Browser fetcher tab and press Copy pairing code, then paste it here.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:00",
+          "target_hash": "a203de8d53b87a91793fcb6152859c5b8e75669cc2b5c13b6552a8754f8bb111"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.code.name": {
+        "src_key": "settings.code.name",
+        "en_hash": "1c5ea2f7ed52a91c82993d40cf16581ac6ccff5283e1840cad1a1857311d1121",
+        "target": "رمز الإقران",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Pairing code",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:36:59",
+          "target_hash": "72f2036ddf0997e64519849cf3a5d5cff28e561daf0d217ddfba633eb327215e"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.captions": {
+        "src_key": "settings.mode.captions",
+        "en_hash": "727b2304214850f0f1369c1f308f2505b656d3dfe8338aef0c03b0f11fdbe80c",
+        "target": "التسميات فقط",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Labels only",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:01",
+          "target_hash": "a38bd49eac3479f88a5dd55d596b25c57b825ebd703d0a0cdb6971a279e1f043"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.desc": {
+        "src_key": "settings.mode.desc",
+        "en_hash": "ff3bae28cb132eeabfa0df91c6f4db2177df3f232042a387a99a8c17f0d04dce",
+        "target": "ما يفعله Clipverb بالرابط الذي ترسله.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "What Clipverb does with the link you send.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:00",
+          "target_hash": "d3d5636e0f4ff2ae84cd7876721c495f31e50811b3e9111a12ee11ab24e491ac"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.distill": {
+        "src_key": "settings.mode.distill",
+        "en_hash": "0213c67117e97abf60a7f0907579f28936470257aee222b75fd4d987a1a36dea",
+        "target": "التسميات + التلخيص",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Labels + summary",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:02",
+          "target_hash": "8435b541809563dc312dfc0b7eced40321766da67ef421796adc303fbddb7f94"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.name": {
+        "src_key": "settings.mode.name",
+        "en_hash": "5e23ec6a300dc60a79641769017e16e9bf042cbd8fd0a54586a048ab9da972ff",
+        "target": "الوضع",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Mode",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:00",
+          "target_hash": "21f93bd50fc14bc3db206a76decbda50bc886e7db7b135885434a0a92f985806"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      }
+    },
+    "es": {
+      "command.editor": {
+        "src_key": "command.editor",
+        "en_hash": "e2f6114c1933594a5f5fd51aa0fb56e71f808fbf7d870c4edea350054df2e2ff",
+        "target": "Enviar el enlace bajo el cursor o el seleccionado",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "fix",
+          "note": "Missing article before 'seleccionado' made the phrase read awkwardly; 'o el seleccionado' is the natural form.",
+          "was": "Enviar el enlace bajo el cursor o seleccionado"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send the link under the cursor or the selected one",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:04",
+          "target_hash": "0399f066374d68644703338a5e5c9889b46a5ff19eb3e1d1367580da5cd1e762"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "command.prompt": {
+        "src_key": "command.prompt",
+        "en_hash": "69ae9601d4427abea459d6b45a57d1d02a70d6e2571943336ae97824655118f2",
+        "target": "Enviar un enlace de video",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:04",
+          "target_hash": "f3a508c0263ffafb1be791abc8031ae22f5f3b50650578c7c7f123b6d361e2c5"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.placeholder": {
+        "src_key": "modal.placeholder",
+        "en_hash": "8482f5d4f392cab32155293c4fae5b01f8f72e21ee2cfeb33aac05fb7d9f91dc",
+        "target": "https://www.youtube.com/watch?v=...",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "https://www.youtube.com/watch?v=...",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:06",
+          "target_hash": "8482f5d4f392cab32155293c4fae5b01f8f72e21ee2cfeb33aac05fb7d9f91dc"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.send": {
+        "src_key": "modal.send",
+        "en_hash": "f6f4688ff23d50c67053963c251fa0ce64a925cf283537cf066b1f362cb9b778",
+        "target": "Enviar",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:06",
+          "target_hash": "e1d12d1a29a77b00142fe03e35c9e05314b8c73fcb3b94d18e0c8c0e1987d367"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.title": {
+        "src_key": "modal.title",
+        "en_hash": "618f7e4eaaaab26be8b99d249b404353aadf04b06897b1158ad8c9b0ebb132dc",
+        "target": "Enviar un enlace de video a Clipverb",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link to Clipverb",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:05",
+          "target_hash": "a01d0698a40edc7acb4707e39d9c35f2d89b932ede66a3be190d9d0844dbe22b"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.bad_code": {
+        "src_key": "outcome.bad_code",
+        "en_hash": "a0cb7c15759bb9cfdfc1958da12e6292bff9a6e60b736a396dca61cb66b415f0",
+        "target": "Clipverb no aceptó el código de vinculación. Cópialo de nuevo desde la pestaña Recuperador del navegador de la app.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb did not accept the pairing code. Copy it again from the Browser Retriever tab of the app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:09",
+          "target_hash": "137d3e30bd5f601aec0e785b5b45665935c013e54d8ad43ddfbaafe8a051ae95"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.bad_link": {
+        "src_key": "outcome.bad_link",
+        "en_hash": "d36d6ccfaf08ec3a434dde1761e0d1f32f0513b8d1dbb8ba3b630245d81bf68c",
+        "target": "Ese no es un enlace de video que Clipverb pueda leer.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "That is not a video link that Clipverb can read.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:10",
+          "target_hash": "3e4190089b897fa89f72d9915944897279264cbee4481e065e111369cd2861f6"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.consent": {
+        "src_key": "outcome.consent",
+        "en_hash": "9fe7a2d4820d06ad2f518aa72e8a455356f441958c5f4ad2e6057d480bcbe8f1",
+        "target": "Abre Clipverb y permite que envíe los subtítulos a tu proveedor de IA; luego vuelve a enviar el enlace.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Open Clipverb and allow it to send the captions to your AI provider; then send the link again.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:11",
+          "target_hash": "cbc5ea34d97501786df02c1e79da4d581a06bc534ab4ec2287c40dd2bbf12d4e"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.failed": {
+        "src_key": "outcome.failed",
+        "en_hash": "3bd9977df351c98e22206e1fbe2b911b45ccaad7b8bfae87ff761edae579e944",
+        "target": "Clipverb no pudo recibir el enlace. Mejor pégalo en la app.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "fix",
+          "note": "'instead' was lost; the sentence must offer pasting into the app as the alternative.",
+          "was": "Clipverb no pudo recibir el enlace. Pégalo en la app."
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb could not receive the link. Better paste it into the app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:12",
+          "target_hash": "3a503fd831271a07e4bf85f46f99208c923739684ebd1066f4a09541dd64aa13"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_code": {
+        "src_key": "outcome.no_code",
+        "en_hash": "7438a471a070ec1ff2a738aadf7dc116957b337260bf5ceeae3758b0de2630df",
+        "target": "Primero pega el código de vinculación de la app Clipverb en los ajustes de este complemento.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "First paste the Clipverb app's pairing code into the settings of this add-in.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:07",
+          "target_hash": "2c9a567ca9765686af1c139cec92b4f36184aa8b705cd4a328920cd2eccae379"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_link": {
+        "src_key": "outcome.no_link",
+        "en_hash": "ae5b11f45dac596d65c3b0433ca4b919f806615d14c45ab6c694f919e7d84020",
+        "target": "No hay ningún enlace bajo el cursor ni en la selección.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "There is no link under the cursor or in the selection.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:08",
+          "target_hash": "7e23961df72f571c5f11e25fd4f4d67dc142b0e29652e8f9a8c2c4af9817ed0f"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_model": {
+        "src_key": "outcome.no_model",
+        "en_hash": "099cbffbfa34b59f8f990228d2b1b7ca704f78c1632fa245ed2fc6aa26f61693",
+        "target": "Elige un modelo en la pestaña Subtítulos + resumen de Clipverb, o configura este complemento en Solo subtítulos.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Choose a model in the Captions + summary tab of Clipverb, or set this add-in to Captions only.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:10",
+          "target_hash": "86a5da9850b03587ad8705aae88937d7ad87d1e71b498fb8a16c43902515ddbd"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.not_bought": {
+        "src_key": "outcome.not_bought",
+        "en_hash": "f632d7a378b5c9b24ffc85974efadb34a8fea637c10ccb59070c4ea982808b9a",
+        "target": "Compra Clipverb para seguir guardando notas desde enlaces de video. La app te muestra cómo.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Buy Clipverb to keep saving notes from video links. The app shows you how.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:09",
+          "target_hash": "841a393be54a282d07063d2c9b46d9cd37fa7a6f18b5f463c0846b2ea83fb710"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.not_running": {
+        "src_key": "outcome.not_running",
+        "en_hash": "8efb3aa6c684a9f36883af5b5e8da15018ded81ae88d8de92948d15f1a6286ef",
+        "target": "Clipverb no respondió. Abre la app Clipverb u obtenla en clipverb.app.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb did not respond. Open the Clipverb app or get it at clipverb.app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:08",
+          "target_hash": "ac5271c9fc0591bc258de53f905a6ddba4501bc5edc5777c92645dbb3ebfd236"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.paired": {
+        "src_key": "outcome.paired",
+        "en_hash": "73dc1e08c0619797da18568aa36c618340be91005a195ad946536823be39f681",
+        "target": "Conectado con Clipverb.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Connected to Clipverb.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:07",
+          "target_hash": "487d6b01f0585286bad0ac7acdfd050a898cb1a28b4826485a5efc171605ab6a"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.sent": {
+        "src_key": "outcome.sent",
+        "en_hash": "54673588f49d6d02d6233f196fbb0a0617109a5440b367538a78a48047fb6b6f",
+        "target": "Enviado a Clipverb. La nota se guarda en la carpeta de la bóveda elegida en la app.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "fix",
+          "note": "English 'vault' left untranslated; Obsidian's own Spanish interface calls it 'bóveda'.",
+          "was": "Enviado a Clipverb. La nota se guarda en la carpeta del vault elegida en la app."
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Sent to Clipverb. The note is saved in the vault folder chosen in the app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:07",
+          "target_hash": "d790115615beb397800e892ceaa9e4b116d7d92829f1a12dd89ea1b697f4013f"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.starting": {
+        "src_key": "outcome.starting",
+        "en_hash": "5672ba6cf60aa41d2106500f39406a497ee136f23481e9c2215d26e3c5a22dbb",
+        "target": "Clipverb aún se está iniciando. Inténtalo de nuevo en un momento.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb is still starting. Try again in a moment.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:12",
+          "target_hash": "c9a10020852eb1342aea4833c960539e56bcfdce0104afe0a18968810afabddd"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "ribbon": {
+        "src_key": "ribbon",
+        "en_hash": "618f7e4eaaaab26be8b99d249b404353aadf04b06897b1158ad8c9b0ebb132dc",
+        "target": "Enviar un enlace de video a Clipverb",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link to Clipverb",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:05",
+          "target_hash": "a01d0698a40edc7acb4707e39d9c35f2d89b932ede66a3be190d9d0844dbe22b"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.about": {
+        "src_key": "settings.about",
+        "en_hash": "54c32207b6c8743f33480c6206f424e791de4e2f95529c05d0fe1ec1c21f6f99",
+        "target": "Clipverb es una app de escritorio de pago con una prueba de 30 días. Este complemento es gratuito y solo se comunica con la app de este equipo.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb is a paid desktop app with a 30-day trial. This add-in is free and only communicates with the app on this computer.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:13",
+          "target_hash": "9466d8be954c6b08efbcbb8eeefec9c8f3f0527cca21d75e78533beef6d8e110"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.button": {
+        "src_key": "settings.check.button",
+        "en_hash": "9d60841e0a7891df0fd55b24d5c883a5d92ae544808675c2ec84537c12589c49",
+        "target": "Comprobar",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Check",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:18",
+          "target_hash": "3de6b90617a784589e18d1a05d04d97ac414efb13ed1b9283aeef1371125e9c7"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.desc": {
+        "src_key": "settings.check.desc",
+        "en_hash": "365076d03ff52d6e8e5f01730c6cabe73e586a8fab8d46ed55878039d476d2ff",
+        "target": "Pregunta a la app Clipverb si acepta este código de vinculación.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Ask the Clipverb app whether it accepts this pairing code.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:18",
+          "target_hash": "e7ebd3552bc7cdf7bcc29d769a016f91739b03c7e4a60f1a92fd333a32eb3734"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.name": {
+        "src_key": "settings.check.name",
+        "en_hash": "c5612baad29591b590a65806bb4982f4f73fe53b0dca8e234c9ffa2d74f8153f",
+        "target": "Estado de la conexión",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Connection status",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:40:48",
+          "target_hash": "9f99b0637769001c7ff8184a3665b52183401ce30ac0627fa2b160b349f99200"
+        },
+        "status": "shipped",
+        "made": "2026-11-23T15:40:49"
+      },
+      "settings.code.desc": {
+        "src_key": "settings.code.desc",
+        "en_hash": "db28e09f9e643020a4197a40d8059555a5e728faba679455579275f0a599dd1f",
+        "target": "En la app Clipverb, abre la pestaña Recuperador del navegador, pulsa Copiar código de vinculación y pégalo aquí.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "In the Clipverb app, open the Browser Retriever tab, press Copy pairing code and paste it here.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:15",
+          "target_hash": "d63cac1d2b96fcb08992e91415b792d86344dec9a643872f2ab9eaded069f517"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.code.name": {
+        "src_key": "settings.code.name",
+        "en_hash": "1c5ea2f7ed52a91c82993d40cf16581ac6ccff5283e1840cad1a1857311d1121",
+        "target": "Código de vinculación",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Pairing code",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:14",
+          "target_hash": "a2c5ced93cade627be100253a0a7ebfbc5ca69b8697b5fc8635a33c84a927534"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.captions": {
+        "src_key": "settings.mode.captions",
+        "en_hash": "727b2304214850f0f1369c1f308f2505b656d3dfe8338aef0c03b0f11fdbe80c",
+        "target": "Solo subtítulos",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Captions only",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:16",
+          "target_hash": "bcc7975d30e6751efb90adb7ec9fd9f13f3decde186d4d20fd8a7e5be835c6d8"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.desc": {
+        "src_key": "settings.mode.desc",
+        "en_hash": "ff3bae28cb132eeabfa0df91c6f4db2177df3f232042a387a99a8c17f0d04dce",
+        "target": "Lo que hace Clipverb con el enlace que envías.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "What Clipverb does with the link you send.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:16",
+          "target_hash": "3c291cd32e8061392b16b2ede833459d8523323240a6ee97f54298d2aa59341a"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.distill": {
+        "src_key": "settings.mode.distill",
+        "en_hash": "0213c67117e97abf60a7f0907579f28936470257aee222b75fd4d987a1a36dea",
+        "target": "Subtítulos + resumen",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Captions + summary",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:17",
+          "target_hash": "bde54605d8405c9553615e8f4ac3e6266d076591d295e0c4c2c753575ff4bc19"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.name": {
+        "src_key": "settings.mode.name",
+        "en_hash": "5e23ec6a300dc60a79641769017e16e9bf042cbd8fd0a54586a048ab9da972ff",
+        "target": "Modo",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Mode",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:15",
+          "target_hash": "6efe5e3c0bcceb1e977aab9e0172ca2746007d96ee377147672e9b453dc94249"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      }
+    },
+    "fr": {
+      "command.editor": {
+        "src_key": "command.editor",
+        "en_hash": "e2f6114c1933594a5f5fd51aa0fb56e71f808fbf7d870c4edea350054df2e2ff",
+        "target": "Envoyer le lien sous le curseur ou le lien sélectionné",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "fix",
+          "note": "'ou sélectionné' dangled without a noun; unnatural in French",
+          "was": "Envoyer le lien sous le curseur ou sélectionné"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send the link under the cursor or the selected link",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:19",
+          "target_hash": "1f18f398aa6be479a39d7fca3dbb011f28e3baeac3f967e8337a7fdc3fc04e67"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "command.prompt": {
+        "src_key": "command.prompt",
+        "en_hash": "69ae9601d4427abea459d6b45a57d1d02a70d6e2571943336ae97824655118f2",
+        "target": "Envoyer un lien vidéo",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:19",
+          "target_hash": "39dcf23c83a1833a70c1e9f193912e3ff150ab3638780da7da8752018aa3b3cf"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.placeholder": {
+        "src_key": "modal.placeholder",
+        "en_hash": "8482f5d4f392cab32155293c4fae5b01f8f72e21ee2cfeb33aac05fb7d9f91dc",
+        "target": "https://www.youtube.com/watch?v=...",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "https://www.youtube.com/watch?v=...",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:21",
+          "target_hash": "8482f5d4f392cab32155293c4fae5b01f8f72e21ee2cfeb33aac05fb7d9f91dc"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.send": {
+        "src_key": "modal.send",
+        "en_hash": "f6f4688ff23d50c67053963c251fa0ce64a925cf283537cf066b1f362cb9b778",
+        "target": "Envoyer",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:21",
+          "target_hash": "79075209f2bb88659c27b70f45fa4f4df8ecdb6395abcfc2d54b2a5184116950"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "modal.title": {
+        "src_key": "modal.title",
+        "en_hash": "618f7e4eaaaab26be8b99d249b404353aadf04b06897b1158ad8c9b0ebb132dc",
+        "target": "Envoyer un lien vidéo à Clipverb",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link to Clipverb",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:20",
+          "target_hash": "4518d057ee745f27de143ac18faff92b1797617f9feccbb45add4dc16bbef5db"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.bad_code": {
+        "src_key": "outcome.bad_code",
+        "en_hash": "a0cb7c15759bb9cfdfc1958da12e6292bff9a6e60b736a396dca61cb66b415f0",
+        "target": "Clipverb n'a pas accepté le code d'association. Copiez-le à nouveau depuis l'onglet Récupérateur de navigateur de l'application.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb did not accept the pairing code. Copy it again from the app's Browser Retriever tab.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:24",
+          "target_hash": "44a462865d048ba5ba17e4c7f9c112d1e2454346505cd75140d705e2c36cc2b8"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.bad_link": {
+        "src_key": "outcome.bad_link",
+        "en_hash": "d36d6ccfaf08ec3a434dde1761e0d1f32f0513b8d1dbb8ba3b630245d81bf68c",
+        "target": "Ce n'est pas un lien vidéo que Clipverb peut lire.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "fix",
+          "note": "translation asserted it is a video link that is unreadable; English says it is not a readable video link",
+          "was": "Ce lien vidéo n'est pas lisible par Clipverb."
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "This is not a video link that Clipverb can read.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:26",
+          "target_hash": "86212041951b0ef8b1d73aa2f43f1b9738954af4fd8f76b010673ce9119dac89"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.consent": {
+        "src_key": "outcome.consent",
+        "en_hash": "9fe7a2d4820d06ad2f518aa72e8a455356f441958c5f4ad2e6057d480bcbe8f1",
+        "target": "Ouvrez Clipverb et autorisez-le à envoyer les sous-titres à votre fournisseur d'IA, puis renvoyez le lien.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Open Clipverb and allow it to send the captions to your AI provider, then send the link again.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:27",
+          "target_hash": "7066005b8c1f3f2382f7e503c3a2874d32e90f42d4dc0811c5df26ec067689eb"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.failed": {
+        "src_key": "outcome.failed",
+        "en_hash": "3bd9977df351c98e22206e1fbe2b911b45ccaad7b8bfae87ff761edae579e944",
+        "target": "Clipverb n'a pas pu accepter le lien. Collez-le plutôt dans l'application.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "fix",
+          "note": "'prendre le lien' is a literal calque; 'accepter' is natural and matches bad_code",
+          "was": "Clipverb n'a pas pu prendre le lien. Collez-le plutôt dans l'application."
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb could not accept the link. Paste it into the app instead.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:28",
+          "target_hash": "fe2ec0fb5f008d7cef92192588c26014bc577d69ecad575d1c47884d9ee6ed76"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_code": {
+        "src_key": "outcome.no_code",
+        "en_hash": "7438a471a070ec1ff2a738aadf7dc116957b337260bf5ceeae3758b0de2630df",
+        "target": "Collez d'abord le code d'association de l'application Clipverb dans les réglages de ce plugin.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "First paste the Clipverb app's pairing code into this plugin's settings.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:23",
+          "target_hash": "07599f5598ec54e113374fd9cb52fd1522bdec3458dd289b61dd6ca12de34c20"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_link": {
+        "src_key": "outcome.no_link",
+        "en_hash": "ae5b11f45dac596d65c3b0433ca4b919f806615d14c45ab6c694f919e7d84020",
+        "target": "Aucun lien sous le curseur ni dans la sélection.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "No link under the cursor or in the selection.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:23",
+          "target_hash": "a0b5e87c5db39c91fd9095a0aaa3875334a8f6c2a424369a4d2d95cb05894207"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.no_model": {
+        "src_key": "outcome.no_model",
+        "en_hash": "099cbffbfa34b59f8f990228d2b1b7ca704f78c1632fa245ed2fc6aa26f61693",
+        "target": "Choisissez un modèle dans l'onglet Sous-titres + résumé de Clipverb, ou réglez ce plugin sur Sous-titres uniquement.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Choose a model in Clipverb's Captions + summary tab, or set this plugin to Captions only.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:26",
+          "target_hash": "3d9a6aea84056f89dd527f354f34e3ad8d2b3f1a49c6fa96530efe328be8a543"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.not_bought": {
+        "src_key": "outcome.not_bought",
+        "en_hash": "f632d7a378b5c9b24ffc85974efadb34a8fea637c10ccb59070c4ea982808b9a",
+        "target": "Achetez Clipverb pour continuer à classer des notes à partir de liens vidéo. L'application vous explique comment.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Buy Clipverb to continue filing notes from video links. The app explains how.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:25",
+          "target_hash": "ca5125d58e5e74dd149e399629cbc2c46bf125c9f57c7bd7f7726dff36d2b1a5"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.not_running": {
+        "src_key": "outcome.not_running",
+        "en_hash": "8efb3aa6c684a9f36883af5b5e8da15018ded81ae88d8de92948d15f1a6286ef",
+        "target": "Clipverb n'a pas répondu. Ouvrez l'application Clipverb, ou obtenez-la sur clipverb.app.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb did not respond. Open the Clipverb app, or get it at clipverb.app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:24",
+          "target_hash": "3068b3ae2ac0ec835615de1aed4a08d3003b16ab05d8b877d8e8c30d5fcfdf87"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.paired": {
+        "src_key": "outcome.paired",
+        "en_hash": "73dc1e08c0619797da18568aa36c618340be91005a195ad946536823be39f681",
+        "target": "Connecté à Clipverb.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Connected to Clipverb.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:22",
+          "target_hash": "a4573e3580a5d1e603fc0ae60dcfc62a2973b5cbfd51811be51dfa3895def7d0"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.sent": {
+        "src_key": "outcome.sent",
+        "en_hash": "54673588f49d6d02d6233f196fbb0a0617109a5440b367538a78a48047fb6b6f",
+        "target": "Envoyé à Clipverb. Il classe la note dans le dossier du coffre choisi dans l'application.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Sent to Clipverb. It files the note in the vault folder chosen in the app.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:22",
+          "target_hash": "27b204c18ffa7ca9edbee96b2ce18de62173880a1469413cd7980a229c01dcbe"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "outcome.starting": {
+        "src_key": "outcome.starting",
+        "en_hash": "5672ba6cf60aa41d2106500f39406a497ee136f23481e9c2215d26e3c5a22dbb",
+        "target": "Clipverb démarre encore. Réessayez dans un instant.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb is still starting. Try again in a moment.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:27",
+          "target_hash": "192cd9802120569292de380bcfaec92b5d3ea9867c3d6d166c14c522c180b24e"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "ribbon": {
+        "src_key": "ribbon",
+        "en_hash": "618f7e4eaaaab26be8b99d249b404353aadf04b06897b1158ad8c9b0ebb132dc",
+        "target": "Envoyer un lien vidéo à Clipverb",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Send a video link to Clipverb",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:20",
+          "target_hash": "4518d057ee745f27de143ac18faff92b1797617f9feccbb45add4dc16bbef5db"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.about": {
+        "src_key": "settings.about",
+        "en_hash": "54c32207b6c8743f33480c6206f424e791de4e2f95529c05d0fe1ec1c21f6f99",
+        "target": "Clipverb est une application de bureau payante avec un essai de 30 jours. Ce plugin est gratuit et ne communique qu'avec l'application installée sur cet ordinateur.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Clipverb is a paid desktop app with a 30-day trial. This plugin is free and only communicates with the app installed on this computer.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:28",
+          "target_hash": "f9300375c13750df13c9ccc697ffafe4199c362a11821667bc8474111e240da4"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.button": {
+        "src_key": "settings.check.button",
+        "en_hash": "9d60841e0a7891df0fd55b24d5c883a5d92ae544808675c2ec84537c12589c49",
+        "target": "Vérifier",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Check",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:33",
+          "target_hash": "8b7daf25ac7f1bb2198e2c29010a7f1506f78a6efedb8435e9c929664085eede"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.desc": {
+        "src_key": "settings.check.desc",
+        "en_hash": "365076d03ff52d6e8e5f01730c6cabe73e586a8fab8d46ed55878039d476d2ff",
+        "target": "Demandez à l'application Clipverb si elle accepte ce code d'association.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Ask the Clipverb app whether it accepts this pairing code.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:32",
+          "target_hash": "e4dad29ff529406c7e8cfe51d00ff2e5d8e746b896743599c370de5ff18b0bbb"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.check.name": {
+        "src_key": "settings.check.name",
+        "en_hash": "c5612baad29591b590a65806bb4982f4f73fe53b0dca8e234c9ffa2d74f8153f",
+        "target": "État de la connexion",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Connection status",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:40:48",
+          "target_hash": "386d3ad9a8762516297816ef088bc758c9f3f0e59db60bbba1504eefbc096edc"
+        },
+        "status": "shipped",
+        "made": "2026-11-23T15:40:49"
+      },
+      "settings.code.desc": {
+        "src_key": "settings.code.desc",
+        "en_hash": "db28e09f9e643020a4197a40d8059555a5e728faba679455579275f0a599dd1f",
+        "target": "Dans l'application Clipverb, ouvrez l'onglet Récupérateur de navigateur et appuyez sur Copier le code d'association, puis collez-le ici.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "In the Clipverb app, open the Browser Retriever tab and press Copy pairing code, then paste it here.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:29",
+          "target_hash": "60391c23373211bdf57cb6b6a065bbc3d47808ca9aa6e27c389221a45ba86ebd"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.code.name": {
+        "src_key": "settings.code.name",
+        "en_hash": "1c5ea2f7ed52a91c82993d40cf16581ac6ccff5283e1840cad1a1857311d1121",
+        "target": "Code d'association",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Pairing code",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:29",
+          "target_hash": "25ab5d7a439504dde28bc844b9bcbe2027ae1d83d4a4bf32db48a83e288fe78e"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.captions": {
+        "src_key": "settings.mode.captions",
+        "en_hash": "727b2304214850f0f1369c1f308f2505b656d3dfe8338aef0c03b0f11fdbe80c",
+        "target": "Sous-titres uniquement",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Captions only",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:31",
+          "target_hash": "d1ffb44f2aaacd68645254ec315cfed2afb260ec6342ed6428963a9dd4300d0b"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.desc": {
+        "src_key": "settings.mode.desc",
+        "en_hash": "ff3bae28cb132eeabfa0df91c6f4db2177df3f232042a387a99a8c17f0d04dce",
+        "target": "Ce que Clipverb fait d'un lien que vous envoyez.",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "What Clipverb does with a link you send.",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:30",
+          "target_hash": "cbb24f208b936096997c5e19ea401441e099393f4243c2931803b30c67743b39"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.distill": {
+        "src_key": "settings.mode.distill",
+        "en_hash": "0213c67117e97abf60a7f0907579f28936470257aee222b75fd4d987a1a36dea",
+        "target": "Sous-titres + résumé",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Captions + summary",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: unsure (unsure), compare verdict stands",
+          "held": "",
+          "at": "2026-11-23T15:37:31",
+          "target_hash": "73f27b5552b05df23ba2e987eaf6ba38e99a8b94343673b526b3b7d073895a21"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      },
+      "settings.mode.name": {
+        "src_key": "settings.mode.name",
+        "en_hash": "5e23ec6a300dc60a79641769017e16e9bf042cbd8fd0a54586a048ab9da972ff",
+        "target": "Mode",
+        "translator_model": "claude-sonnet-5-5",
+        "review": {
+          "verdict": "ok"
+        },
+        "reviewer_model": "claude-opus-5-5",
+        "back": "Mode",
+        "back_model": "claude-haiku-5-5",
+        "compare": {
+          "verdict": "same"
+        },
+        "compare_model": "claude-opus-5-5",
+        "gate": {
+          "claims": "pass",
+          "compare": "pass",
+          "jev": "translation.faithful: faithful",
+          "held": "",
+          "at": "2026-11-23T15:37:30",
+          "target_hash": "5e23ec6a300dc60a79641769017e16e9bf042cbd8fd0a54586a048ab9da972ff"
+        },
+        "made": "2026-11-23T15:37:48",
+        "status": "shipped"
+      }
+    }
+  },
+  "terms": {
+    "rules": {
+      "ar": "Use the Clipverb app's own labels exactly: \"Captions only\" is \"التسميات فقط\"; \"Captions + distill\" is \"التسميات + التلخيص\"; \"Browser fetcher\" is \"جالب المتصفح\"; \"Copy pairing code\" is \"نسخ رمز الإقران\"; \"Pairing code\" is \"رمز الإقران\". Keep \"clipverb.app\", \"127.0.0.1\" and \"Obsidian\" as written.",
+      "es": "Use the Clipverb app's own labels exactly: \"Captions only\" is \"Solo subtítulos\"; \"Captions + distill\" is \"Subtítulos + resumen\"; \"Browser fetcher\" is \"Recuperador del navegador\"; \"Copy pairing code\" is \"Copiar código de vinculación\"; \"Pairing code\" is \"Código de vinculación\". Keep \"clipverb.app\", \"127.0.0.1\" and \"Obsidian\" as written.",
+      "fr": "Use the Clipverb app's own labels exactly: \"Captions only\" is \"Sous-titres uniquement\"; \"Captions + distill\" is \"Sous-titres + résumé\"; \"Browser fetcher\" is \"Récupérateur de navigateur\"; \"Copy pairing code\" is \"Copier le code d'association\"; \"Pairing code\" is \"Code d'association\". Keep \"clipverb.app\", \"127.0.0.1\" and \"Obsidian\" as written.",
+      "all": "These are the interface strings of an Obsidian plugin that sends a video link to the Clipverb desktop app. Short, plain, second person. Never call the app or a mode free."
+    },
+    "sha256": "667611ccb777c565181560bc9a79e1ecbd55ef1f633074039efcfd4b9b9374aa"
+  }
+}
