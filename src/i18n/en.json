@@ -17,14 +17,14 @@
   "outcome.consent": "Open Clipverb and allow it to send captions to your AI provider, then send the link again.",
   "outcome.starting": "Clipverb is still starting. Try again in a moment.",
   "outcome.failed": "Clipverb could not take the link. Paste it into the app instead.",
-  "settings.about": "Clipverb is a paid desktop app with a 30-day free trial. This plugin is free and talks only to the app on this computer.",
+  "settings.about": "Clipverb is a paid desktop app with a 30-day trial. This plugin is free and talks only to the app on this computer.",
   "settings.code.name": "Pairing code",
   "settings.code.desc": "In the Clipverb app, open the Browser fetcher tab and press Copy pairing code, then paste it here.",
   "settings.mode.name": "Mode",
   "settings.mode.desc": "What Clipverb does with a link you send.",
   "settings.mode.captions": "Captions only",
   "settings.mode.distill": "Captions + distill",
-  "settings.check.name": "Connection",
+  "settings.check.name": "Connection status",
   "settings.check.desc": "Ask the Clipverb app whether it takes this pairing code.",
   "settings.check.button": "Check"
 }
