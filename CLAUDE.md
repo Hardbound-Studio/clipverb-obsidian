@@ -20,3 +20,12 @@ and files the note. The plugin fetches nothing, holds no key, and talks only to 
 
 Scaffold only (Obsidian sample tooling, no plugin code yet). Needs Clipverb 0.5.3 or later,
 which adds `POST /link`.
+
+## Read ladder
+
+1. This card. 2. `src/` once it exists. 3. Obsidian's developer docs for any API or policy question.
+
+## Secrets
+
+None. The plugin holds no key; the pairing code a user pastes lives in the plugin's `data.json` in
+their own vault, which `.gitignore` keeps out of the repo.
