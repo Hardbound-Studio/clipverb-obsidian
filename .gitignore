@@ -36,6 +36,7 @@ data.json
 .claude/hooks/session-start-memory-sweep.py
 .claude/hooks/block-cloud-from-estate.py
 .claude/hooks/block-shell-write.py
+.claude/hooks/on-action-rules.py
 .claude/hooks/hook-errors.log
 .claude/hooks/cap-warnings.log
 .claude/hooks/__pycache__/
