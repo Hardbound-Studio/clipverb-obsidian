@@ -23,9 +23,13 @@ which adds `POST /link`.
 
 ## Read ladder
 
-1. This card. 2. `src/` once it exists. 3. Obsidian's developer docs for any API or policy question.
+1. This file. Stop here unless you need more.
+2. `src/` for the code.
+3. Obsidian's developer docs for any API or policy question.
 
 ## Secrets
 
 None. The plugin holds no key; the pairing code a user pastes lives in the plugin's `data.json` in
-their own vault, which `.gitignore` keeps out of the repo.
+their own vault, which `.gitignore` keeps out of the repo. Any studio credential a release ever
+needs (a GitHub token) lives in the estate's `C:\dev\secrets\` folder (its README is the key
+register), never in this repo.
