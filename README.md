@@ -1,4 +1,4 @@
-# Clipverb: Video to Notes
+# Clipverb
 
 Send a video link from Obsidian to the Clipverb desktop app. The app files the video's own captions as a Markdown note in your vault, or a summary made with your own AI key.
 

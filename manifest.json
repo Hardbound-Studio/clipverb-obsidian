@@ -1,7 +1,7 @@
 {
 	"id": "clipverb",
-	"name": "Clipverb: Video to Notes",
-	"version": "0.1.0",
+	"name": "Clipverb",
+	"version": "0.1.1",
 	"minAppVersion": "1.8.7",
 	"description": "Send a video link to the Clipverb desktop app, which files the video's captions or a summary as a note in your vault.",
 	"author": "Hardbound Studio",
